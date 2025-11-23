@@ -1,12 +1,12 @@
 # React Projects Portfolio
 
-This repository contains a collection of React-based front‑end projects built with a focus on clean structure, modern UI styling, and practical development workflows. Each project is maintained in its own folder to keep the repository organized and scalable as more implementations are added.
+This repository contains a collection of React-based front-end projects built with a focus on clean structure, modern UI styling, and practical development workflows. Each project is maintained in its own folder to keep the repository organized and scalable as more implementations are added.
 
 ---
 
 ## Brand Page — Product Landing UI
 
-The **Brand Page** project is a clean, responsive landing interface inspired by modern product‑focused websites.  
+The **Brand Page** project is a clean, responsive landing interface inspired by modern product-focused websites.  
 It demonstrates:
 
 - A structured component layout  
@@ -16,9 +16,11 @@ It demonstrates:
 - Asset organization and build optimization through Vite  
 
 ### Preview  
-Below is a preview of the Brand Page interface:
+A screenshot of the interface is available inside the project directory at:
 
-![Project Screenshot](Brand-page/public/images/Screenshot.png)
+```
+Brand-page/public/images/Screenshot.png
+```
 
 ---
 
@@ -73,7 +75,6 @@ http://localhost:5173
 
 ## Additional Notes
 
-This repository is intended to grow as a collection of front‑end builds. More React projects will be added over time, each within its own folder.
+This repository is intended to grow as a collection of front-end builds. More React projects will be added over time, each within its own folder.
 
-The goal is to maintain a clear, professional structure that reflects real‑world development practices.
-
+The goal is to maintain a clear, professional structure that reflects real-world development practices.
