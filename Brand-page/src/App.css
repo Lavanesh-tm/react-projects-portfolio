@@ -17,7 +17,7 @@
 body {
   font-family: "Poppins", sans-serif;
 
-  /* ⭐ NEW NON-BLACK FUTURISTIC NIKE BACKGROUND ⭐ */
+
   background: linear-gradient(
     135deg,
     #ffe3ff,
@@ -38,9 +38,9 @@ body {
   padding: 0 22px;
 }
 
-/* ===================== NAVBAR ===================== */
 
-/* ⭐ NEW LIGHT GLASS NAVBAR (NO BLACK) ⭐ */
+
+
 .nav-wrapper {
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(18px);
@@ -62,7 +62,7 @@ body {
   filter: brightness(110%);
 }
 
-/* Nav Links */
+
 .nav-links {
   list-style: none;
   display: flex;
@@ -79,7 +79,7 @@ body {
   transition: 0.3s;
 }
 
-/* Underline */
+
 .nav-links a::after {
   content: "";
   width: 0%;
@@ -99,7 +99,7 @@ body {
   width: 100%;
 }
 
-/* Login Button */
+
 .btn-primary {
   background: linear-gradient(90deg, #ff5fa7, #ff2e74);
   padding: 11px 26px;
@@ -116,8 +116,6 @@ body {
   transform: translateY(-3px) scale(1.06);
   box-shadow: 0 0 22px rgba(255, 50, 140, 0.9);
 }
-
-/* ===================== HERO ===================== */
 
 .hero {
   display: flex;
