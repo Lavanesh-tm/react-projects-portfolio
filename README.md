@@ -1,109 +1,79 @@
-# Brand Landing Page — React + Vite
+# React Projects Portfolio
 
-This project is a polished, production‑style landing page inspired by Nike’s modern branding approach.  
-The goal was to build a clean, responsive interface using React and Vite while focusing on layout quality, component structure, and custom CSS design.
-
----
-
-## Preview
-
-Below is an interface preview from the running development build:
-
-![Project Preview](./screenshot.png)
+This repository contains a collection of React-based front‑end projects built with a focus on clean structure, modern UI styling, and practical development workflows. Each project is maintained in its own folder to keep the repository organized and scalable as more implementations are added.
 
 ---
 
-## Overview
+## Brand Page — Product Landing UI
 
-The page is structured around two core components:
+The **Brand Page** project is a clean, responsive landing interface inspired by modern product‑focused websites.  
+It demonstrates:
 
-- **Navigation Bar** — A glass‑style top navigation with subtle gradients and hover effects
-- **Hero Section** — Product‑focused layout with gradient background, floating shoe image, and platform availability badges
+- A structured component layout  
+- Custom gradient backgrounds  
+- Subtle UI animation  
+- Reusable styling patterns  
+- Asset organization and build optimization through Vite  
 
-All styling is handwritten using CSS, with specific attention to gradients, spacing, text glow, and overall brand consistency.
+### Preview  
+Below is a preview of the Brand Page interface:
+
+![Project Screenshot](Brand-page/public/images/Screenshot.png)
 
 ---
 
-## Technologies
+## Tech Stack
 
 - **React (Vite)**
 - **JavaScript (ES6+)**
-- **CSS3**
-- **Vite Dev Server + Build Tools**
+- **CSS3 / Flexbox**
+- **Custom gradients and UI styling**
+- **Optimized PNG assets**
 
 ---
 
-## Project Structure
+## Folder Structure
 
 ```
-public/
-  images/
-    amazon.png
-    brand_logo.png
-    flipkart.png
-    shoe_image.png
-
-src/
-  components/
-    Navigation.jsx
-    Hero.jsx
-  App.jsx
-  App.css
-  index.css
-  main.jsx
-
-index.html
-package.json
-vite.config.js
+react-projects-portfolio/
+│
+├── Brand-page/
+│   ├── public/
+│   │   └── images/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
 ```
 
 ---
 
-## Getting Started
+## Running the Project
 
-Install dependencies:
+To run the Brand Page locally:
 
 ```bash
+cd Brand-page
 npm install
-```
-
-Start the local dev server:
-
-```bash
 npm run dev
 ```
 
-You should see something like:
+The project will start on:
 
 ```
-➜  Local:   http://localhost:5174/
-➜  Network: use --host to expose
-➜  press h + enter to show help
+http://localhost:5173
 ```
 
 ---
 
-## Focus Areas
+## Additional Notes
 
-This project was built to demonstrate:
+This repository is intended to grow as a collection of front‑end builds. More React projects will be added over time, each within its own folder.
 
-- Clean component architecture
-- Brand‑oriented hero section design
-- Gradient and glow‑based typography
-- Custom CSS without relying on UI libraries
-- Asset handling through Vite’s public directory
+The goal is to maintain a clear, professional structure that reflects real‑world development practices.
 
----
-
-## Future Work
-
-- Add product blocks or highlights
-- Add scroll animations
-- Improve mobile navigation
-- Deploy to Vercel or Netlify for a public demo
-
----
-
-## Notes
-
-This project is part of my UI/Front‑End practice to refine layout design, styling depth, and component structure in React.
