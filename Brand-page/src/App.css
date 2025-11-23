@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --neon: #ff2e63;
+  --pink: #ff6fae;
+  --purple: #b56bff;
+  --purple-dark: #7a3cff;
+  --gray: #555;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  /* ⭐ NEW NON-BLACK FUTURISTIC NIKE BACKGROUND ⭐ */
+  background: linear-gradient(
+    135deg,
+    #ffe3ff,
+    #f7b4ff 25%,
+    #d18cff 50%,
+    #b067ff 75%,
+    #9850ff
+  );
+  background-attachment: fixed;
+
+  color: white;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+/* ===================== NAVBAR ===================== */
+
+/* ⭐ NEW LIGHT GLASS NAVBAR (NO BLACK) ⭐ */
+.nav-wrapper {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(18px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.nav {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 95px;
+  filter: brightness(110%);
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+}
+
+.nav-links a {
+  color: #2c2c2c;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.6px;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Underline */
+.nav-links a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--purple-dark);
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Login Button */
+.btn-primary {
+  background: linear-gradient(90deg, #ff5fa7, #ff2e74);
+  padding: 11px 26px;
+  border-radius: 40px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  box-shadow: 0 0 10px rgba(255, 50, 130, 0.4);
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px) scale(1.06);
+  box-shadow: 0 0 22px rgba(255, 50, 140, 0.9);
+}
+
+/* ===================== HERO ===================== */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: calc(100vh - 100px);
+  padding-left: 40px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+.glow-text {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 1.1;
+
+  background: linear-gradient(90deg, #fff, #ffd6f7, #ff9ad7);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  text-shadow: 0 0 12px rgba(255, 200, 240, 0.4);
+}
+
+.subtext {
+  max-width: 450px;
+  line-height: 1.7rem;
+  color: #292929;
+  font-weight: 500;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-secondary {
+  border: 2px solid rgba(0, 0, 0, 0.35);
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #222;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.btn-secondary:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.available {
+  margin-top: 8px;
+  color: #222;
+  font-weight: 600;
+}
+
+/* BRAND ICONS */
+.brand-icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.brand-logo {
+  width: 110px;
+  height: auto;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+.brand-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* SHOE IMAGE */
+.hero-image img {
+  width: 520px;
+  height: auto;
+  filter: drop-shadow(0 0 45px rgba(255, 60, 130, 0.6));
+  animation: float 4s infinite ease-in-out;
+  z-index: 2;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
